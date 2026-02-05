@@ -1,13 +1,17 @@
 import React from 'react';
 
 const Gallery: React.FC = () => {
-  // Creating an array of placeholders. 
-  // In production, these should be real images from assets.
-  const images = Array.from({ length: 8 }).map((_, i) => ({
-    id: i,
-    src: `https://picsum.photos/600/600?random=${i + 10}`,
-    alt: `Trabalho realizado no salão Charming ${i + 1}`
-  }));
+  // Static gallery images
+  const images = [
+    '/images/gallery-1.jpg',
+    '/images/gallery-2.jpg',
+    '/images/gallery-3.jpg',
+    '/images/gallery-4.jpg',
+    '/images/gallery-5.jpg',
+    '/images/gallery-6.jpg',
+    '/images/gallery-7.jpg',
+    '/images/gallery-8.jpg'
+  ];
 
   return (
     <section id="galeria" className="py-20 bg-slate-50">
@@ -23,16 +27,15 @@ const Gallery: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {images.map((img, idx) => (
-            <div 
-              key={img.id} 
-              className={`relative overflow-hidden rounded-xl group ${
-                idx === 0 || idx === 7 ? 'col-span-2 row-span-2' : 'col-span-1'
-              }`}
+          {images.map((src, idx) => (
+            <div
+              key={idx}
+              className={`relative overflow-hidden rounded-xl group ${idx === 0 || idx === 7 ? 'col-span-2 row-span-2' : 'col-span-1'
+                }`}
             >
-              <img 
-                src={img.src} 
-                alt={img.alt} 
+              <img
+                src={src}
+                alt={`Trabalho realizado no salão Charming ${idx + 1}`}
                 loading="lazy"
                 className="w-full h-full object-cover min-h-[200px] transition-transform duration-500 group-hover:scale-110"
               />

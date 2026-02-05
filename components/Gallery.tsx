@@ -21,7 +21,7 @@ const Gallery: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-2">A Nossa Galeria</h2>
             <p className="text-slate-600">Espreite alguns dos nossos trabalhos recentes.</p>
           </div>
-          <a href="https://www.instagram.com" target="_blank" rel="noreferrer" className="text-accent font-medium hover:text-primary transition-colors">
+          <a href="https://www.instagram.com/explore/locations/776282859/cabeleireiro-charming/" target="_blank" rel="noreferrer" className="text-accent font-medium hover:text-primary transition-colors">
             Ver mais no Instagram →
           </a>
         </div>

@@ -1,0 +1,99 @@
+{
+    "business": {
+        "name": "Charming",
+        "tagline": "Hairstyling by Belenda",
+        "address": "Rua J. Joaquim Soares, 8, 8125-209 Quarteira (Loulé), Portugal",
+        "phone": "+351289301432",
+        "phoneDisplay": "+351 289 301 432",
+        "mapsLink": "https://www.google.com/maps/place/Cabeleireiro+Charming/@37.0737152,-8.1002496,15z/data=!4m6!3m5!1s0xd1ab5538f7381d5:0xa3cfef5d15460857!8m2!3d37.0676756!4d-8.1032097!16s%2Fg%2F11ty26kntp?hl=en&entry=ttu",
+        "coordinates": {
+            "lat": 37.0676756,
+            "lng": -8.1032097
+        },
+        "hours": {
+            "weekdays": "Ter - Qui: 10:00 - 13:00, 14:30 - 19:30",
+            "saturday": "Sex - Sáb: 10:00 - 13:00, 14:30 - 19:30",
+            "sunday": "Dom - Seg: Fechado"
+        }
+    },
+    "hero": {
+        "title": "Cabeleireiro em Quarteira — Charming",
+        "subtitle": "Serviço rápido, acessível e profissional no coração do Algarve.",
+        "ctaPrimary": "Ligar para marcar",
+        "ctaSecondary": "Enviar mensagem"
+    },
+    "services": [
+        {
+            "id": "corte-homem",
+            "title": "Corte Homem",
+            "icon": "scissors",
+            "description": "Cortes modernos ou clássicos, rápidos e com acabamento perfeito."
+        },
+        {
+            "id": "penteado",
+            "title": "Penteado",
+            "icon": "wind",
+            "description": "Styling para eventos, festas ou para se sentir bem no dia-a-dia."
+        },
+        {
+            "id": "extensoes",
+            "title": "Extensões",
+            "icon": "layers",
+            "description": "Adicione comprimento e volume com técnicas seguras e naturais."
+        },
+        {
+            "id": "madeixas",
+            "title": "Madeixas",
+            "icon": "sun",
+            "description": "Ilumine o seu rosto com madeixas subtis ou contrastantes."
+        },
+        {
+            "id": "balayage",
+            "title": "Balayage",
+            "icon": "brush",
+            "description": "Técnica degradê para um look natural e de baixa manutenção."
+        },
+        {
+            "id": "coloracao",
+            "title": "Coloração",
+            "icon": "palette",
+            "description": "Cobertura de brancos ou mudança de visual com produtos de qualidade."
+        },
+        {
+            "id": "alisamento",
+            "title": "Alisamento",
+            "icon": "sparkles",
+            "description": "Cabelos lisos, sedosos e sem frizz por muito mais tempo."
+        }
+    ],
+    "testimonials": [
+        {
+            "id": "t1",
+            "name": "Maria Silva",
+            "text": "Adorei o atendimento! A Belenda é super simpática e o corte ficou exatamente como eu queria. Preço muito justo para Quarteira.",
+            "rating": 5
+        },
+        {
+            "id": "t2",
+            "name": "Joana Costa",
+            "text": "Fiz madeixas e ficaram perfeitas. Ambiente acolhedor e serviço rápido. Recomendo a quem vive ou passa férias no Algarve.",
+            "rating": 5
+        },
+        {
+            "id": "t3",
+            "name": "Ana Pereira",
+            "text": "Finalmente encontrei um cabeleireiro acessível e com qualidade. O alisamento mudou a minha vida!",
+            "rating": 5
+        }
+    ],
+    "contact": {
+        "title": "Entre em Contacto",
+        "subtitle": "Estamos prontos para cuidar de si. Ligue-nos ou visite o nosso espaço.",
+        "form": {
+            "namePlaceholder": "O seu nome",
+            "phonePlaceholder": "Telefone / Telemóvel",
+            "messagePlaceholder": "Como podemos ajudar?",
+            "buttonText": "Enviar Pedido"
+        }
+    }
+}

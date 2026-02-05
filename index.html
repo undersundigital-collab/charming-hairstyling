@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-PT" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cabeleireiro em Quarteira — Charming Hairstyling</title>
+    <meta name="description" content="Cabeleireiro Charming em Quarteira (Loulé). Cortes, coloração, balayage e penteados. Rápido e acessível. Marque já: +351 289 301 432." />
+    <link rel="canonical" href="https://charming-quarteira.netlify.app" />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="business.business" />
+    <meta property="og:title" content="Cabeleireiro em Quarteira — Charming" />
+    <meta property="og:description" content="Hairstyling by Belenda. O seu cabeleireiro rápido e acessível em Quarteira. Marque a sua visita." />
+    <meta property="og:image" content="https://picsum.photos/1200/630" />
+    <meta property="og:url" content="https://charming-quarteira.netlify.app" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cabeleireiro em Quarteira — Charming" />
+    <meta name="twitter:description" content="Cortes, madeixas e penteados no Algarve. Profissionalismo e simpatia." />
+    <meta name="twitter:image" content="https://picsum.photos/1200/630" />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#111827', // Dark Slate/Black
+              secondary: '#F4F4F5', // Light Gray/White smoke
+              accent: '#FB7185', // Rose
+              'accent-hover': '#F43F5E',
+              cream: '#FFF1F2', // Very light rose for backgrounds
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HairSalon",
+      "name": "Charming",
+      "alternateName": "Hairstyling by Belenda",
+      "image": "https://picsum.photos/800/600",
+      "@id": "https://charming-quarteira.netlify.app",
+      "url": "https://charming-quarteira.netlify.app",
+      "telephone": "+351289301432",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua J. Joaquim Soares, 8",
+        "addressLocality": "Quarteira",
+        "addressRegion": "Loulé",
+        "postalCode": "8125-209",
+        "addressCountry": "PT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.0676756,
+        "longitude": -8.1032097
+      },
+      "areaServed": ["Quarteira", "Loulé", "Vilamoura", "Algarve"],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "13:00"
+        }
+      ]
+    }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white text-gray-800 antialiased selection:bg-accent selection:text-white">
+    <div id="root"></div>
+    <!-- Hidden form for Netlify detection -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <textarea name="message"></textarea>
+    </form>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
